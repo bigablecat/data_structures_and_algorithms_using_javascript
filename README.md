@@ -1,10 +1,50 @@
-data_structures_and_algorithms_using_javascript
+《数据结构与算法JavaScript描述》学习笔记  
 ===============================================
+![cover](https://raw.githubusercontent.com/bigablecat/data_structures_and_algorithms_using_javascript/master/cover.jpg)  
 
-This is the example code than accompanies Data Structures and Algorithms with JavaScript by Michael McMillan (9781449364939). 
+**〇. 本项目介绍：**  
+对《数据结构与算法JavaScript描述》官方发布的随书代码练习和解读  
 
-Click the Download Zip button to the right to download example code.
+**一. 官方项目地址:**  
+[https://github.com/oreillymedia/data_structures_and_algorithms_using_javascript](https://github.com/oreillymedia/data_structures_and_algorithms_using_javascript)
 
-Visit the catalog page [here](http://shop.oreilly.com/product/0636920029557.do).
+**二. 使用js shell运行本书代码（以windows 10操作系统为例）：**  
 
-See an error? Report it [here](http://oreilly.com/catalog/errata.csp?isbn=0636920029557), or simply fork and send us a pull request.
+**1. 安装：下载mozilla官方的jsshell压缩包即可**  
+
+1) 前往[https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/](https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/)  
+
+2) 找到自己的操作系统对应的jsshell压缩包，本例中下载的是[jsshell-win64.zip](https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/jsshell-win64.zip)  
+
+3) 解压缩jsshell-win64.zip文件到自己喜欢的路径，本例中最终解压路径为D:\jsshell-win64\  
+
+**2. 使用jsshell中的js.exe运行js文件：**  
+
+>新建一个hello.js文件，写一行代码print("hello world!")，有两种方式使用jsshell运行hello.js文件：  
+
+**2.1) 方法一：在jsshell-win64文件夹下直接运行**  
+```shell  
+2.1.1) 将hello.js文件放入jsshell-win64文件夹  
+
+2.1.2) 在jsshell-win64文件夹下，打开windows自带的cmd或PowerShell命令行工具  
+
+2.1.3) 在命令行输入.\js.exe .\hello.js  
+
+D:\jsshell-win64>.\js.exe .\hello.js  
+
+运行结果：hello world!  
+
+备注：js.exe和hello.js前需要加上.\，或者按tab键自动补全也会加上.\
+```  
+**2.2) 方法二：将jsshell-win64/js.exe添加到windows系统环境变量，全局任意调用js.exe**  
+```shell  
+2.2.1) 将jsshell文件夹添加到windows系统环境变量PATH  
+
+2.2.2) 进入hello.js所在文件夹，打开windows自带的cmd或PowerShell命令行工具  
+
+2.2.3) 在命令行输入js.exe .\hello.js  
+
+x:\xxx>js.exe .\hello.js  
+
+备注：hello.js前需要加上.\，或者按tab键自动补全也会加上.\
+```  
